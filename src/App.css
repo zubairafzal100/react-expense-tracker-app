@@ -1,18 +1,32 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'lato';
+  font-family: "lato";
 }
 
-body{
+body {
   background-color: #f7f7f7;
 }
 
 /* Main Container */
-.container{
+.container {
   max-width: 400px;
   min-height: 400px;
   margin: 30px auto;
   text-align: center;
+}
+
+@media screen and (max-width: 460px) {
+  .container {
+    max-width: 280px;
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .container {
+    max-width: 240px;
+    margin: 20px auto;
+  }
 }
