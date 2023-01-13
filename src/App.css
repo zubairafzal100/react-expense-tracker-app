@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'lato';
+}
+
+body{
+  background-color: #f7f7f7;
+}
+
+/* Main Container */
+.container{
+  max-width: 400px;
+  min-height: 400px;
+  margin: 30px auto;
+  text-align: center;
+}

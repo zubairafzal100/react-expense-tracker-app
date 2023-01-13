@@ -1,0 +1,148 @@
+/* Title */
+.app-title {
+    font-weight: 700;
+}
+
+/* Total Balance */
+.balance-container {
+    margin-top: 30px;
+}
+
+.balance-container h4 {
+    text-transform: uppercase;
+}
+
+/* Total Income & Expense */
+.income_expense-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff !important;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+}
+
+.income_expense-container div{
+    padding: 0 60px;
+}
+
+.income_expense-container .income{
+    border-right: 1px solid #dedede;
+}
+
+.income_expense-container h3{
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.income_expense-container .income h3{
+    color: green;
+}
+
+.income_expense-container .expense h3{
+    color: red;   
+}
+
+.income_expense-container h4{
+    text-transform: uppercase;
+}
+
+/* Transaction History */
+.transcation-history-container {
+    margin-top: 40px;
+    position: relative;
+}
+
+.transcation-history-container h3{
+    margin-bottom: 8px;
+}
+
+.transcation-history-container ul{
+    list-style: none;
+    margin-top: 14px;
+}
+
+.transcation-history-container ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+}
+
+.transcation-history-container ul li.income{
+    border-right: 5px solid green;
+}
+
+.transcation-history-container ul li.income:hover{
+    background: green;
+    color: #fff;
+}
+
+.transcation-history-container ul li.expense{
+    border-right: 5px solid red;
+}
+
+.transcation-history-container ul li.expense:hover{
+    background: red;
+    color: #fff;
+}
+
+.transcation-history-container ul li .del-transaction{
+    background: rgb(209, 14, 14);
+    padding: 6px 10px;
+    color: #fff;
+    font-weight: 700;
+    position: absolute;
+    left: -30px;
+    display: none;
+    border: 1px solid rgb(209, 14, 14);
+    cursor: pointer;
+}
+
+.transcation-history-container ul li:hover .del-transaction{
+    display: block;
+}
+
+/* New Transaction */
+.new-transaction-container{
+    margin-top: 40px;
+}
+
+.new-transaction-container h3{
+    margin-bottom: 8px;
+}
+
+/* Transaction Form */
+.transaction-form{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.transaction-form h4{
+    margin-top: 10px;
+}
+
+.transaction-form input{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #dedede;
+    font-size: 17px;
+}
+
+.submit-btn{
+    border-radius: 2px !important;
+    background-color: green;
+    color: #fff;
+    font-size: 16px !important;
+    font-weight: 700;
+    cursor: pointer;
+    border: none !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+}
